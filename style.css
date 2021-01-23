@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.workspace {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), 
+	url(images/background.jpg); 
+	background-position: center;
+	background-size: cover;
+	position: absolute; 
+}
+
+.login-form {
+	width: 550px;
+	height: 650px;
+	position: relative;
+	background: #fafafa;
+	margin: 7% auto;	
+	padding: 5px;
+}
