@@ -14,10 +14,78 @@
 }
 
 .login-form {
-	width: 550px;
-	height: 650px;
+	width: 380px;
+	height: 480px;
 	position: relative;
 	background: #fafafa;
 	margin: 7% auto;	
 	padding: 5px;
+	border-radius: 20px;
+}
+
+.welcome-box{
+	width: 195px;
+	height: 45px;
+	margin: 23px auto;
+	position: relative;
+	cursor: default;
+	box-shadow: 0 0 30px 12px #ff61241f;
+	border-radius: 30px;
+}
+
+#welcome {
+	width: 195px;
+	height: 45px;
+	color: #fafafa;
+	text-align: center;
+	font-family: -webkit-pictograph;
+	font-size: 28px;
+	letter-spacing: 3px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+}
+
+#sign-up {
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #6c6c6a;
+	text-align: center;
+	font-family: -webkit-pictograph;
+}
+
+.or-field {
+	color: #6c6c6a;
+	margin: 24px 0px;
+    display: flex;
+    letter-spacing: 1px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: -webkit-pictograph;
+}
+
+#line {
+	color: #6c6c6a;
+	flex: 1 1 0%;
+    border-bottom: 1px solid rgb(64, 64, 64);
+}
+
+#or {
+	color: #6c6c6a;
+    margin: 0px 14px;
+    text-transform: uppercase;
+}
+
+.social-auth-icons {
+	margin: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.social-auth-icons img {
+	width: 31px;
+	margin: 0 18px;
+	margin-bottom: -10px;
+	cursor: pointer;
+	border-radius: 50%;
+	box-shadow: 0 0 20px #eee;
 }
