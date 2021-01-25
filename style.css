@@ -50,29 +50,8 @@
 	letter-spacing: 1px;
 	color: #6c6c6a;
 	text-align: center;
+	cursor: default;
 	font-family: -webkit-pictograph;
-}
-
-.or-field {
-	color: #6c6c6a;
-	margin: 24px 0px;
-    display: flex;
-    letter-spacing: 1px;
-    -webkit-box-align: center;
-    align-items: center;
-    font-family: -webkit-pictograph;
-}
-
-#line {
-	color: #6c6c6a;
-	flex: 1 1 0%;
-    border-bottom: 1px solid rgb(64, 64, 64);
-}
-
-#or {
-	color: #6c6c6a;
-    margin: 0px 14px;
-    text-transform: uppercase;
 }
 
 .social-auth-icons {
@@ -88,4 +67,69 @@
 	cursor: pointer;
 	border-radius: 50%;
 	box-shadow: 0 0 20px #eee;
+}
+
+.or-field {
+	color: #6c6c6a;
+	margin: 24px 0px;
+    display: flex;
+    letter-spacing: 1px;
+    cursor: default;
+    align-items: center;
+    font-family: -webkit-pictograph;
+}
+
+#line {
+	flex: 1 1 0%;
+    border-bottom: 1px solid #6c6c6a;
+}
+
+#or {
+	color: #6c6c6a;
+    margin: 0px 14px;
+    text-transform: uppercase;
+}
+
+.input-data {
+	top: 180px;
+	width: 300px;
+	margin-left: 7px;
+	padding-left: 15px;
+	padding-top: 0px;
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px;
+	margin: 5px auto;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.check-box {
+	margin: 15px 10px 30px 0;
+}
+
+span {
+	color: #6c6c6a;
+	font-size: 14px;
+	font-family: -webkit-pictograph;
+}
+
+.reg-btn {
+	color: #fafafa;
+	width: 60%;
+	padding: 10px 30px;
+	letter-spacing: 1px;
+	display: block;
+	margin: auto;	
+  	cursor: pointer;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
 }
